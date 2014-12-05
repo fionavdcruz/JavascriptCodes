@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Date and Math Object</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var myDate = new Date();
+        document.write("Today date is: " + myDate + "<br/>");
+        document.write("Today time is:  " + myDate.getHours() + ":" + myDate.getMinutes()  + ":" + myDate.getSeconds() + "<br/>");
+   
+        document.write("Floor: "+Math.floor(12.6)+"<br/>");
+        document.write("Log:    "+Math.log(12.6)+"<br/>");
+        document.write("Max:    "+Math.max(12,13,15,25)+"<br/>");
+        document.write("Min:    "+Math.min(11,12,13,10)+"<br/>");
+        document.write("Pow:    "+Math.pow(10,2)+"<br/>");
+        document.write("Random:     "+Math.random()+"<br/>");
+        document.write("Round:     " + Math.round(12.65) + "<br/>");
+        document.write("Sin:    " + Math.sin(90) + "<br/>");
+        document.write("Square Root:    " + Math.sqrt(16) + "<br/>");
+        document.write("Tan:    " + Math.tan(45) + "<br/>");
+        document.write("Exp:    " + Math.exp(10) + "<br/>");
+
+    
+    
+    
+    
+     </script>
+
+</body>
+</html>
