@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    function myFunc1()
+    {
+    var a = 50;
+    try{
+        alert("Value of variable a is : " + a);
+             }catch(e){
+        alert("Error: " + e.description);
+    }finally{
+                alert("Finally block will always execute!");
+            }
+    }
+    </script>
+    <p> Click the following to see the result: </p>
+    <form>
+        <input id="Button1" type="button" value="Click Me" onclick="myFunc1();" />
+    </form>
+</body>
+</html>
