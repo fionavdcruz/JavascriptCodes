@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body style ="background-color:cornsilk; ">
+    <h1>For with string Object</h1>
+    <p> Enter the text below</p>
+    <form name="wordcount">
+        <textarea id="TextArea1" name="wordcount2"rows="22" cols="38" style="color:lightpink;background-color:blueviolet;font-size:20px">
+                    </textarea>
+        <input id="Button1" type="button" value="Calculate Words" onclick="countit()" />
+        <input id="Text1" type="text"  name="wordcount3" size="20"/>
+    </form>
+    <script type="text/javascript">
+        function countit() {
+            var formcontent = document.wordcount.wordcount2.value;
+            formcontent = formcontent.split("       ");
+            document.wordcount.wordcount3.value = formcontent.length;
+        }
+    </script>
+</body>
+</html>
