@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var age = 24;
+        document.write(age + "<br/>");
+        age += 55;
+
+        document.write(age);
+
+        var sub = 4;
+        document.write(sub + "<br/>");
+        sub -= 55;
+
+        document.write(sub);
+
+        var mul = 20;
+        document.write(mul + "<br/>");
+        age *= 2;
+
+        document.write(mul);
+
+        var div = 24;
+        document.write(div + "<br/>");
+        age /= 2;
+
+        document.write(age+ "<br>");
+
+
+        var eq = 2;
+        eq += 10;
+        eq -= 5;
+        eq *= 2;
+        eq /= 6;
+        document.write(eq);
+       
+    </script>
+</body>
+</html>
